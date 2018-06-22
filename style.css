@@ -1,0 +1,63 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  background-position: center;
+  background-image: url("C:\\Users\\Ajay Reddy\\Desktop\\webdev\\ShoppingList\\shopping.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.done {
+  text-decoration: line-through;
+}
+.heading{
+  font-family: 'Encode Sans Condensed', sans-serif;
+  text-align: center;
+}
+.btn{
+  font-size: 10px;
+  justify-content: center;
+  font-family: 'Acme', sans-serif;
+  float: right;
+}
+#enter{
+  margin-top: 7px;
+  font-size: 10px;
+  justify-content: center;
+  font-family: 'Acme', sans-serif;
+  float: right;
+}
+#userinput{
+
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.items{
+  float: left;
+}
